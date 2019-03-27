@@ -11,25 +11,25 @@ const CardSchema = new mongoose.Schema({
     type: mongoose.SchemaTypes.String,
   },
   bookmarked: {
-    type: mongoose.SchemaType.Boolean,
+    type: mongoose.SchemaTypes.Boolean,
   },
   bezirk: {
-    type: mongoose.SchemaType.String,
+    type: mongoose.SchemaTypes.String,
   },
   switch: {
-    type: mongoose.SchemaType.Boolean,
+    type: mongoose.SchemaTypes.Boolean,
   },
   rating: {
-    type: mongoose.SchemaType.String,
+    type: mongoose.SchemaTypes.Number,
   },
   hundeführerschein: {
-    type: mongoose.SchemaType.String,
+    type: mongoose.SchemaTypes.String,
   },
   lat: {
-    type: mongoose.SchemaType.String,
+    type: mongoose.SchemaTypes.Mixed,
   },
   lng: {
-    type: mongoose.SchemaType.String,
+    type: mongoose.SchemaTypes.Mixed,
   },
 })
 
